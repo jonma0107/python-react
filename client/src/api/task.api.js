@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const tasksApi = axios.create({
-  baseURL: 'python-react-production.up.railway.app/tasks/api/v1/tasks/'
+  baseURL: 'https://python-react-production.up.railway.app/tasks/api/v1/tasks/'
 })
 
 // List all tasks
