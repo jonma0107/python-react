@@ -86,14 +86,15 @@ WSGI_APPLICATION = 'django_crud_api.wsgi.application'
 #     }
 # }
 
+# mysql -hcontainers-us-west-17.railway.app -uroot -pmIl92nmLTiwbpnvD39d8 --port 5649 --protocol=TCP railway
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'joncore',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': 'jonma0107',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'PASSWORD': 'mIl92nmLTiwbpnvD39d8',
+        'HOST': 'containers-us-west-17.railway.app:5649',
+        'PORT': '5649',
     }
 }
 
